@@ -1,0 +1,20 @@
+footer{
+    border-top: 1px solid #2e344e;
+    padding: 15px 0;
+    background-color: #2b2a2c;
+}
+
+.inner{
+    display: flex;
+}
+.social{
+    display: flex;
+    width: 300px;
+}
+
+@media (max-width: 410px) {
+    .social{
+        justify-content: center;
+        width: 100%;
+    }
+}

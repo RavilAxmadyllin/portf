@@ -1,0 +1,22 @@
+
+.main{
+    background: #292d3b;
+    height: 80vh;
+    padding-top: 90px;
+    margin-left: 50px;
+    text-align: center;
+    color: rgba(211, 211, 211, 0.84);
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+@media (max-width: 550px) {
+    .main{
+        margin-left:0;
+        height: 30vh;
+    }
+}

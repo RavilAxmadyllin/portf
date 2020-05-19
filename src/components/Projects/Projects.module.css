@@ -1,0 +1,25 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.col{
+    width: 33.3%;
+}
+
+@media (max-width: 781px) {
+    .projects{
+        justify-content: center;
+    }
+    .col{
+        width: 50%;
+    }
+}
+@media (max-width: 540px) {
+    .col{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

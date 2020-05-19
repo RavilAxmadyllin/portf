@@ -1,0 +1,26 @@
+.box{
+    padding:40px;
+    max-width: 300px;
+}
+
+.iconBox{
+    color: rgba(3,127,255,.2);
+    height: 70px;
+    width: 70px;
+    margin: 0 auto 30px;
+    background: #191d2b;
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    font-size: 30px;
+    box-shadow: 0 10px 40px rgba(3,127,255,.2);
+    text-align: center;
+    transform: rotate(45deg);
+}
+.icon{
+    align-self: center;
+    transform: rotate(-45deg);
+}
+.text{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+
+.socialWrap{
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    border:1px solid  rgba(0, 0, 0, 0.65);
+    background: rgba(59, 59, 6, 0.23);
+    display: flex;
+    justify-content: center;
+}
+.socialWrap:first-child{
+    margin-left: 0;
+}
+.socialWrap a {
+    align-self: center;
+}
+.icon {
+    align-self: center;
+    color: #fff;
+    opacity: .9;
+    font-size: 15px;
+}
+.socialWrap:hover{
+    transition: all .5s linear;
+    border:1px solid  rgba(0, 0, 0, 0.65);
+    background: #6c6c6c;
+}
+.socialWrap a:hover{
+    color: rgba(0, 0, 0, 0.65);
+}
