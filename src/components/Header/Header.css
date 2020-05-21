@@ -1,13 +1,14 @@
 .header{
-display: flex;
+    background: transparent;
+    display: flex;
 }
 .header-inner{
+    background: #191d2b;
     height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
     width: 200px;
-    background: #191d2b;
     border-right: 1px solid #2e344e;
     border-bottom: 1px solid #2e344e;
     z-index: 10;

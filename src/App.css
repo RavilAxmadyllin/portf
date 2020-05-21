@@ -1,12 +1,11 @@
+
 .container{
   max-width: 1100px;
   width: 100%;
   margin:0 auto;
   padding-left:  200px;
 }
-body{
-  /*background: #292d3b;*/
-}
+
 
 @media (max-width: 800px)  {
   .container{

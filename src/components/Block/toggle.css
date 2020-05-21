@@ -1,4 +1,5 @@
 .menu-icon-wrapper {
+
     display: none;
     width: 30px;
     height: 30px;
@@ -58,5 +59,7 @@
 @media (max-width: 800px)  {
     .menu-icon-wrapper{
         display: flex;
+        margin: -20px 13px;
+        transform: translateY(20px);
     }
 }

@@ -1,3 +1,12 @@
+.block{
+    padding: 9px;
+    text-align: center;
+}
+.discription{
+    margin-bottom: 7px;
+    font-style: italic;
+    color: #4e93e6;
+}
 .layer{
     position: relative;
     overflow: hidden;

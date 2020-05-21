@@ -9,18 +9,11 @@ function Project() {
            <div className="container">
                <Title title={'My work'}/>
                <div className={styles.projects}>
-                   <div className={styles.col}>
                        <Work title={'social-network'} discription={'React Redux'}/>
-                   </div>
-                   <div className={styles.col}>
                        <Work title={'TodoList'} discription={'React Redux'}/>
-                   </div>
-                   <div className={styles.col}>
                        <Work title={'Simple counter'} discription={'React Redux'}/>
-                   </div>
-                   <div className={styles.col}>
                        <Work title={'social-network'} discription={'React Redux'}/>
-                   </div>
+
                </div>
 
            </div>
