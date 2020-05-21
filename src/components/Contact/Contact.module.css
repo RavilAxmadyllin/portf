@@ -1,3 +1,8 @@
+.contact{
+    padding: 50px 0;
+    background: #292d3b;
+}
+
 .wrap{
     display: flex;
     flex-wrap: wrap;

@@ -4,7 +4,7 @@ import Title from "../Block/Title";
 
 function Contact() {
 return(
-    <div>
+    <div className={styles.contact}>
         <div className="container">
             <Title title={'Contact'}/>
             <div className={styles.wrap}>

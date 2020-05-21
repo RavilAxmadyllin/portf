@@ -5,7 +5,7 @@ import Work from "./Work";
 
 function Project() {
    return(
-       <div>
+       <div className={styles.projectsWrap}>
            <div className="container">
                <Title title={'My work'}/>
                <div className={styles.projects}>

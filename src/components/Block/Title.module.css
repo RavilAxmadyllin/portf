@@ -4,11 +4,15 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    color: rgba(211, 211, 211);
-    margin: 50px 0;
-    position: relative;
+    color: rgb(211, 211, 211);
+    margin-bottom: 60px;
 }
-
+.title div{
+    background: #4e93e6;
+    width: 55px;
+    height: 2px;
+    margin: 30px auto;
+}
 .subTitle{
     position: absolute;
     right: 35%;

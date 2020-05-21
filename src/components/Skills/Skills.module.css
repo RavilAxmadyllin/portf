@@ -1,4 +1,7 @@
-
+.skills{
+    padding: 50px 0;
+    background: #252527
+}
 .skillsWrap{
     display: flex;
     flex-wrap: wrap;
