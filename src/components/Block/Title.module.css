@@ -1,6 +1,23 @@
 .title{
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
     color: rgba(211, 211, 211);
     margin: 50px 0;
+    position: relative;
+}
+
+.subTitle{
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 600;
+    color: rgba(25,29,43,.44);
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: -1;
 }

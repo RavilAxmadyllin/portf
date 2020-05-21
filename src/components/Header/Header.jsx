@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css'
 import Nav from "./Nav/Nav";
 import Toggle from "../Block/Toggle";
+import me from '../../assets/img/foto.jpg'
 
 
 function Header(props) {
@@ -11,7 +12,7 @@ function Header(props) {
             <div className="header-inner">
                 <div className={'header-image'} >
                     <a href="">
-                        <img src="https://placekitten.com/340/360" alt="photo"/>
+                        <img src={me} alt="photo"/>
                     </a>
                 </div>
                 <Nav />

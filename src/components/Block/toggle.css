@@ -55,7 +55,7 @@
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-@media (max-width: 700px)  {
+@media (max-width: 800px)  {
     .menu-icon-wrapper{
         display: flex;
     }

@@ -35,7 +35,7 @@ button{
     text-align: center;
     border-radius: 5px;
     width: 100%;
-    border: 1px solid #4a4a4a;
+    /*border: 1px solid #4a4a4a;*/
 }
 @media (max-width: 340px) {
     .form{

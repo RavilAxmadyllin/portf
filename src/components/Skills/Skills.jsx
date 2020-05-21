@@ -7,22 +7,14 @@ import SkillsBlock from "../Block/SkillsBlock";
 
 function Skills() {
     return(
-        <div>
+        <div className={styles.skills}>
             <div className={'container'}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skillsWrap}>
-                    <div className={styles.skillCol}>
                         <SkillsBlock title={'HTML & CSS'} icon={faCode}/>
-                    </div>
-                    <div className={styles.skillCol}>
                         <SkillsBlock title={'Javascript'} icon={faLaptopCode}/>
-                    </div>
-                    <div className={styles.skillCol}>
                         <SkillsBlock title={'React'} icon={faReact}/>
-                    </div>
-                    <div className={styles.skillCol}>
                         <SkillsBlock title={'Redux'} icon={faCogs}/>
-                    </div>
                 </div>
             </div>
         </div>

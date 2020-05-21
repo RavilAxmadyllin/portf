@@ -8,14 +8,12 @@ function Main() {
     return(
         <div className={styles.main}>
             <div className="container">
-                <div>
-                    <h1>Front-end developer</h1>
-                </div>
-                <div>
-                    I'm Axmadyllin Ravil
-                </div>
-                <div><h2>contacts</h2></div>
-                <div className={styles.social}>
+                    <div><h1>Front-end developer</h1></div>
+                    <div>
+                        I'm Axmadyllin Ravil
+                    </div>
+                    <div><h2>contacts</h2></div>
+                    <div className={styles.social}>
                         <Social icon={faVk}/>
                         <Social icon={faTelegramPlane}/>
                         <Social icon={faGithub}/>
