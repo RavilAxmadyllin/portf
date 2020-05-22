@@ -5,7 +5,6 @@ return(
     <div className={styles.title}>
         <h2 >{props.title}</h2>
         <div></div>
-        {/*<span className={styles.subTitle}>{props.title}</span>*/}
     </div>
 )
 }

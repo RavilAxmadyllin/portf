@@ -50,16 +50,17 @@
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-
 .menu-icon.menu-icon-active::after {
     transform: rotate(-45deg);
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-@media (max-width: 800px)  {
+@media (max-width: 850px)  {
     .menu-icon-wrapper{
-        display: flex;
-        margin: -20px 13px;
-        transform: translateY(20px);
+        position: fixed;
+        top: 30px;
+        left: 20px;
+        display: block;
+
     }
 }

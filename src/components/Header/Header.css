@@ -1,17 +1,13 @@
-.header{
-    background: transparent;
-    display: flex;
-}
 .header-inner{
     background: #191d2b;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
+    border-bottom: 1px solid #2e344e;
+    min-height: 100vh;
     width: 200px;
     border-right: 1px solid #2e344e;
-    border-bottom: 1px solid #2e344e;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 .header-image{
@@ -29,15 +25,11 @@
     border: white 2px solid;
     overflow: hidden;
 }
-.header-inner{
-    display: flex;
-    flex-direction: column;
-}
 img{
     transform: scale(2)translate(3px, 20px);
     max-width: 100%;
 }
-@media (max-width: 800px)  {
+@media (max-width: 850px)  {
     .header-inner{
         display: none;
     }

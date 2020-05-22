@@ -5,18 +5,17 @@ import Main from "./components/Main/Main";
 import Skills from "./components/Skills/Skills";
 import Project from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Route from "react-router-dom/es/Route";
 
 function App() {
     return (
         <div className="App">
             <Header/>
-            <Main />
-            <Skills/>
-            <Project/>
-            <Contact/>
-            <Footer/>
-
+            <Route path={'/home'} render={()=> <Main/>}/>
+            <Route path={'/skills'} render={()=> <Skills/>}/>
+            <Route path={'/project'} render={()=>  <Project/>}/>
+            <Route path={'/contacts'} render={()=>  <Contact/>}/>
+            {/*<Footer/>*/}
         </div>
     );
 }

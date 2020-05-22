@@ -16,6 +16,7 @@ function Header(props) {
                     </a>
                 </div>
                 <Nav />
+                <p>© 2020 Copyright</p>
             </div>
 
         </div>

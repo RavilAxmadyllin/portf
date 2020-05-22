@@ -11,8 +11,12 @@
     position: relative;
     overflow: hidden;
     width: 250px;
-}
+    cursor: pointer;
 
+}
+.layer:hover{
+    box-shadow: 0 0 8px #4e93e6;
+}
 .layerItem{
     position: absolute;
     background: rgba(0, 0, 0, 0.91);
@@ -26,6 +30,7 @@
     transition: all .4s linear;
     top: 0;
     opacity: 1;
+
 }
 .item{
     margin-bottom: 60px;

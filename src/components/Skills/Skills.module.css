@@ -1,5 +1,5 @@
 .skills{
-    padding: 50px 0;
+    width: 100%;
     background: #252527
 }
 .skillsWrap{
@@ -7,20 +7,5 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    justify-content: center;
-
+    justify-content: space-between;
 }
-
-/*@media (max-width: 564px)  {*/
-/*    .skillsWrap{*/
-/*        margin-bottom:50px ;*/
-/*    }*/
-/*    .skillCol{*/
-/*        width: 50%;*/
-/*    }*/
-/*}*/
-/*@media (max-width: 360px) {*/
-/*    .skillCol{*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
