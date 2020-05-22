@@ -1,7 +1,7 @@
 .header-inner{
     background: #191d2b;
     border-bottom: 1px solid #2e344e;
-    min-height: 100vh;
+    min-height: 100%;
     width: 200px;
     border-right: 1px solid #2e344e;
     z-index: 10;

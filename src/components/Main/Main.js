@@ -9,10 +9,9 @@ function Main() {
         <div className={styles.main}>
             <div className={classes.container}>
                     <h1>Front-end developer</h1>
-                    <div>
+                    <div className={styles.text}>
                         I'm Axmadyllin Ravil
                     </div>
-                    <div>contacts</div>
                 <div className={styles.social}>
                     <Social icon={faVk}/>
                     <Social icon={faTelegramPlane}/>
