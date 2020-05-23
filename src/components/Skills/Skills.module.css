@@ -1,6 +1,7 @@
 .skills{
     width: 100%;
-    background: #252527
+    background: #252527;
+    min-height: 100vh;
 }
 .skillsWrap{
     display: flex;
@@ -8,4 +9,10 @@
     margin-right: -15px;
     margin-left: -15px;
     justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    .skillsWrap{
+        justify-content: center;
+    }
 }

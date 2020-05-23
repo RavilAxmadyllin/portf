@@ -1,7 +1,7 @@
 .App{
   width: 100%;
   overflow: hidden;
-  height: auto;
+  height: 100%;
   display: flex;
 }
 @media (max-width: 850px)  {
