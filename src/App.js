@@ -10,15 +10,14 @@ import {Redirect} from "react-router-dom";
 
 class App extends React.Component {
     componentDidMount() {
-        return <Redirect to={'/home'} />
+        return <Redirect  to={'/home'} />
             }
-
-
     render() {
         return (
             <div className="App">
                 <Header/>
-                <Route path={'/home'} render={() => <Main/>}/>
+                <Redirect  to={'/home'} />
+                <Route path={'/home'} component={Main}/>
                 <Route path={'/skills'} render={() => <Skills/>}/>
                 <Route path={'/project'} render={() => <Project/>}/>
                 <Route path={'/contacts'} render={() => <Contact/>}/>
