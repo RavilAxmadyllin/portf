@@ -11,10 +11,10 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Route path={'/home'} render={()=> <Main/>}/>
-            <Route path={'/skills'} render={()=> <Skills/>}/>
-            <Route path={'/project'} render={()=>  <Project/>}/>
-            <Route path={'/contacts'} render={()=>  <Contact/>}/>
+            <Route path={'/'} render={() => <Main/>}/>
+            <Route path={'/skills'} render={() => <Skills/>}/>
+            <Route path={'/project'} render={() => <Project/>}/>
+            <Route path={'/contacts'} render={() => <Contact/>}/>
             {/*<Footer/>*/}
         </div>
     );

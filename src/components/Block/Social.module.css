@@ -1,8 +1,8 @@
 
 .socialWrap{
     margin-left: 15px;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 12px;
     border:1px solid  rgba(0, 0, 0, 0.65);
     background: rgba(59, 59, 6, 0.23);
@@ -19,7 +19,7 @@
     align-self: center;
     color: #fff;
     opacity: .9;
-    font-size: 15px;
+    font-size: 25px;
 }
 .socialWrap:hover{
     transition: all .5s linear;

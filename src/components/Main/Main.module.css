@@ -14,33 +14,34 @@
     margin-bottom: 40px;
     padding: 10px;
     text-transform: uppercase;
-    animation: blur .75s ease-out infinite;
-    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    /*animation: blur .75s ease-out infinite;*/
+    text-shadow: 0 0 2px #fff;
 }
 
-@keyframes blur {
-    0% {
-        text-shadow: 0px 0px 10px #fff;
+/*@keyframes blur {*/
+/*    0% {*/
+/*        text-shadow: 0px 0px 10px #fff;*/
 
-    }
-    20% {
-        text-shadow: 0 0 15px #fff;
-    }
-    50%{
-        text-shadow: 0 0 25px #fff
-    }
-    70%{
-        text-shadow: 0  0  50px #7B96B8;
-    }
-    85%{
-        text-shadow: 0  10px 100px #7B96B8;
-    }
-    100%{
-        text-shadow:  0 -10px 100px #7B96B8;
-    }
+/*    }*/
+/*    20% {*/
+/*        text-shadow: 0 0 15px #fff;*/
+/*    }*/
+/*    50%{*/
+/*        text-shadow: 0 0 25px #fff*/
+/*    }*/
+/*    70%{*/
+/*        text-shadow: 0  0  50px #7B96B8;*/
+/*    }*/
+/*    85%{*/
+/*        text-shadow: 0  10px 100px #7B96B8;*/
+/*    }*/
+/*    100%{*/
+/*        text-shadow:  0 -10px 100px #7B96B8;*/
+/*    }*/
 
-}
+/*}*/
 .text{
+    margin: 10px 0;
     width: 21ch;
     font-family: monospace;
     white-space: nowrap;
@@ -76,10 +77,4 @@
     justify-content: center;
     align-items: center;
     margin: 15px auto;
-}
-
-@media (max-width: 550px) {
-    .main{
-        margin-left:0;
-    }
 }
