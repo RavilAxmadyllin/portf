@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 import './Nav.css'
-import {NavLink} from "react-router-dom";
+import {NavLink} from 'react-router-dom'
 
 function Nav() {
 return(

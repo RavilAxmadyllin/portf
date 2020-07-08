@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 import './Header.css'
-import Nav from "./Nav/Nav";
-import Toggle from "../Block/Toggle";
+import Nav from './Nav/Nav'
+import Toggle from '../Block/Toggle'
 import me from '../../assets/img/foto.jpg'
 
 

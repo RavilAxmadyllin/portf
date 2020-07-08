@@ -1,4 +1,5 @@
 .header-inner{
+    position: relative;
     background: #191d2b;
     border-bottom: 1px solid #2e344e;
     min-height: 100%;

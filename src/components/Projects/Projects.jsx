@@ -1,7 +1,7 @@
-import React from "react";
-import styles from'./Projects.module.css';
-import Title from "../Block/Title";
-import Work from "./Work";
+import React from 'react'
+import styles from'./Projects.module.css'
+import Title from '../Block/Title'
+import Work from './Work'
 import classes from '../Block/ContainerClass.module.css'
 function Project() {
    return(
