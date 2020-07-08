@@ -7,9 +7,7 @@ import { HashRouter} from "react-router-dom";
 
 ReactDOM.render(
     <HashRouter basename={process.env.PUBLIC_URL}>
-        <React.StrictMode>
             <App />
-        </React.StrictMode>
     </HashRouter>,
     document.getElementById('root')
 );

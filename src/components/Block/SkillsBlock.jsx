@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./SkillsBlock.module.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import React from 'react'
+import styles from './SkillsBlock.module.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function SkillsBlock(props) {
 return(

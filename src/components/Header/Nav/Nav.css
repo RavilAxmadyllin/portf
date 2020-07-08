@@ -43,3 +43,9 @@
     z-index: 1;
     transition: all .4s linear
 }
+@media (max-width: 850px)  {
+    .nav-menu li{
+        padding: 20px;
+    }
+}
+

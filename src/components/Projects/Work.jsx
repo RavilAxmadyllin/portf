@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import styles from './Work.module.css'
 function Work(props) {
     return(
@@ -6,7 +6,7 @@ function Work(props) {
             <h3>{props.title}</h3>
             <div className={styles.discription}>{props.discription}</div>
             <div className={styles.layer}>
-                <img  src="https://placebeard.it/250x337" alt=""/>
+                <img  src={props.src ? props.src : 'https://placebeard.it/250x337'} alt={props.title}/>
                 <div className={styles.layerItem}>
                     <div className={styles.item}>
                         <a>code</a>

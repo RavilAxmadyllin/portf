@@ -5,8 +5,7 @@ import Main from './components/Main/Main'
 import Skills from './components/Skills/Skills'
 import Project from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
-import Route from 'react-router-dom/es/Route'
-import {Redirect} from 'react-router-dom'
+import {Redirect, Route} from 'react-router-dom'
 import Particles from 'react-particles-js'
 
 const particlesOption = {
@@ -69,7 +68,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <Header/>
-                <Particles className={'particles'} params={particlesOption}/>
+                {/*<Particles className={'particles'} params={particlesOption}/>*/}
                 <Redirect  to={'/home'} />
                 <Route path={'/home'} component={Main}/>
                 <Route path={'/skills'} render={() => <Skills/>}/>
@@ -79,5 +78,4 @@ class App extends React.Component {
         );
     }
 }
-
 export default App

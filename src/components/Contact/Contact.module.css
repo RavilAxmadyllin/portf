@@ -1,6 +1,7 @@
 .contact{
     width: 100%;
     background: #292d3b;
+    position: relative;
 }
 
 .wrap{
@@ -31,7 +32,7 @@ button{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
-    padding: 7px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     background: transparent;
     color: #fff;
@@ -41,7 +42,8 @@ button{
     text-align: center;
     border-radius: 5px;
     width: 100%;
-    /*border: 1px solid #4a4a4a;*/
+    outline: none;
+    border: 1px solid #4a4a4a;
 }
 @media (max-width: 501px) {
     .form{

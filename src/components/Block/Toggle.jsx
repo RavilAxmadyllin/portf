@@ -1,22 +1,19 @@
 import React from "react";
 import './toggle.css'
 
-class Toggle extends React.Component {
-    state={
-        active:false
+const Toggle = (props) => {
+   const onActive = () => {
+        props.onActiveMode(props.activeMode)
     }
-    onActive = () => {
-        this.setState({active:!this.state.active})
-    }
-    render() {
-   let activeClass =  !this.state.active ? 'menu-icon' : 'menu-icon menu-icon-active'
+
+   let activeClass =  !props.activeMode ? 'menu-icon' : 'menu-icon menu-icon-active'
 
         return (
             <div className="menu-icon-wrapper">
-                <div className={activeClass} onClick={this.onActive}></div>
+                <div className={activeClass} onClick={onActive}></div>
             </div>
         )
-    }
+
 }
 
 export default Toggle
