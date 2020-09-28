@@ -3,40 +3,26 @@ import './Header.css'
 import Nav from './Nav/Nav'
 import Toggle from '../Block/Toggle'
 import me from '../../assets/img/foto.jpg'
+import {Link} from 'react-router-dom'
 
 
-class Header extends React.Component {
-    state = {
-        activeMode: false
-    }
-    onActiveMode = (value) => {
-        this.setState({
-            activeMode: !value
-        })
-    }
-    changePage = () => {
-        this.setState({
-            activeMode: false
-        })
-    }
-    render() {
-
-        let special = !this.state.activeMode ? 'header-inner' : 'header-inner active'
-        return (
-            <div className={'header'}>
-                <Toggle activeMode={this.state.activeMode} onActiveMode={this.onActiveMode}/>
-                <div className={special}>
-                    <div className={'header-image'}>
-                        <a href="">
-                            <img src={me} alt="photo"/>
-                        </a>
-                    </div>
-                    <Nav changePage={this.changePage}/>
-                    <p>© 2020 Copyright</p>
+function Header() {
+    const [toggle, setToggle] = useState(false)
+    let special = !toggle ? 'header-inner' : 'header-inner active'
+    return (
+        <div className={'header'}>
+            <Toggle toggle={toggle} changeMode={setToggle}/>
+            <div className={special}>
+                <div className={'header-image'}>
+                    <Link to={'/home'}>
+                        <img src={me} alt={'me'}/>
+                    </Link>
                 </div>
+                <Nav changePage={() => setToggle(false)}/>
+                <p>© 2020 Copyright</p>
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default Header

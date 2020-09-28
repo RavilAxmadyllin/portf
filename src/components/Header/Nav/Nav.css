@@ -44,8 +44,11 @@
     transition: all .4s linear
 }
 @media (max-width: 850px)  {
+    .nav-menu {
+        margin-top: 0;
+    }
     .nav-menu li{
-        padding: 20px;
+        padding: 10px;
     }
 }
 

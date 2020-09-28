@@ -1,22 +1,23 @@
 import React from 'react'
 import styles from './Work.module.css'
+
 function Work(props) {
-    return(
+    const link = props.image ? props.image : 'https://via.placeholder.com/250x337'
+    return (
         <div className={styles.block}>
-            <h3>{props.title}</h3>
-            <div className={styles.discription}>{props.discription}</div>
+            <h3 className={styles.description}>{props.title}</h3>
             <div className={styles.layer}>
-                <img  src={props.src ? props.src : 'https://placebeard.it/250x337'} alt={props.title}/>
-                <div className={styles.layerItem}>
+                <img src={link} alt={props.title}/>
+                <div className={styles.overlay}>
                     <div className={styles.item}>
-                        <a>code</a>
-                    </div>
-                    <div className={styles.item}>
-                        <a>watch </a>
+                        <a href={props.code} target="_blank" rel="noopener noreferrer">code</a>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer">watch</a>
                     </div>
                 </div>
+
             </div>
         </div>
     )
 }
+
 export default Work
